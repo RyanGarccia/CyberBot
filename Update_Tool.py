@@ -31,8 +31,8 @@ def Welcome_Mensage():
 def Script():
     update = raw_input("Update_Tool > ")
     if update == "Yes" or update == "yes" or update == "Y" or update == "y":
-#            system('git reset --hard > /dev/null')
-#            system('git pull > /dev/null')
+            system('git reset --hard > /dev/null')
+            system('git pull > /dev/null')
             system('clear')
             print (' ')
             print (' ')
